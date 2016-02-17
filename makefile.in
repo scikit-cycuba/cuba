@@ -34,7 +34,7 @@ TARFILE = $(TARDIR).tar.gz
 HEADERS = cuba$(SUFFIX).h
 LIB = libcuba$(SUFFIX).a
 MATH = Vegas$(SUFFIX)$(EXE) Suave$(SUFFIX)$(EXE) Divonne$(SUFFIX)$(EXE) Cuhre$(SUFFIX)$(EXE)
-TOOLS = partview$(EXE)
+TOOLS = #partview$(EXE)
 
 
 all: lib demos $(MATH_DEFAULT) $(TOOLS_DEFAULT)
